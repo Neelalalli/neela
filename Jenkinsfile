@@ -21,7 +21,7 @@ pipeline
     {
         steps
         {
-          sh 'top'
+          sh 'top -h'
         }
      }
      stage('creating one more file')
