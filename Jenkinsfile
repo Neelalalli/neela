@@ -28,7 +28,7 @@ pipeline
     {
         steps
         {
-            sh 'mkdir /root/example'
+            sh 'mkdir /root/duplicate'
         }
      } 
     }
